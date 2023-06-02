@@ -6,7 +6,9 @@ All of the following file changes are made to those in the ArduPlane folder as t
 
 ## SIM_Plane.h
 
-Use SIM_Plane_h_vals.csv
+Found in ``` ardupilot\libraries\SITL ```
+
+Inform using SIM_Plane_h_vals.csv
 
 * hover_throttle (line XX)
 * CGOffset (line XX)
@@ -14,7 +16,9 @@ Use SIM_Plane_h_vals.csv
 
 ## SIM_Frame.h
 
-Use SIM_Frame_vals.csv
+Found in ``` ardupilot\libraries\SITL ```
+
+Inform using SIM_Frame_vals.csv
 
 * refVoltage (line XX)
 * maxVoltage (line width)
@@ -26,16 +30,21 @@ Use SIM_Frame_vals.csv
 
 ## SIM_Plane.cpp
 
-Use SIM_Plane_cpp_vals.csv
+Found in ``` ardupilot\libraries\SITL ```
+
+Inform using SIM_Plane_cpp_vals.csv
 
 * mass (line XX)
 
 ## Group2.parm
 
+Found in ``` ardupilot\Tools\autotest\default_params ```
+
 Run this file in the SITL console after running
 ```
-> cd ArduPlane
+> cd ardupilot/ArduPlane
 > sim_vehicle.py -j4 -v Plane -f quadplane --console
+> param load ../Tools/autotest/default_params/Group2.parm
 ```
 
 Currently this file does not need to be informed by a CSV. When aircraft configurations (quadplane, tiltrotor, tailsitter, v-tail, etc.) are implemented, this file will need to be made informable via CSV.
