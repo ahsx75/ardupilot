@@ -1,0 +1,26 @@
+param set Q_ENABLE 1
+param set SIM_BATT_VOLTAGE 50
+param set Q_RTL_MODE 1
+param set RTL_RADIUS 300
+param set ARSPD_FBW_MIN 18
+param set ARSPD_FBW_MAX 50
+param set Q_ANGLE_MAX 3000
+param set Q_M_THST_EXPO 0.75
+
+# elevon setup
+# plane-elevons.parm
+# SERVO1_FUNCTION 78
+# SERVO2_FUNCTION 77
+# SERVO1_REVERSED 1
+# SERVO2_REVERSED 1
+
+# v tail setup
+# plane-vtail.parm
+# SERVO2_FUNCTION 80
+# SERVO4_FUNCTION 79
+# SERVO2_REVERSED 1
+
+# tail sitter setup, lots of tuning
+# plane-tailsitter.parm
+# Q_ENABLE         1
+# Q_FRAME_CLASS    10
