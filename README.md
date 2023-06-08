@@ -51,6 +51,7 @@ Run this file in the SITL console after running
 
 Currently this file does not need to be informed by a CSV. When aircraft configurations (quadplane, tiltrotor, tailsitter, v-tail, etc.) are implemented, this file will need to be made informable via CSV.
 
+* param set Q_ENABLE 1
 * param set SIM_BATT_VOLTAGE 50
 * param set Q_RTL_MODE 1
 * param set RTL_RADIUS 300
