@@ -10,9 +10,9 @@ Found in ``` ardupilot\libraries\SITL ```
 
 Inform using SIM_Plane_h_vals.csv
 
-* hover_throttle (line XX)
-* CGOffset (line XX)
-* Aircraft parameters (lines XX - XX)
+* hover_throttle (line 43)
+* Aircraft parameters (lines 52 - 89)
+* CGOffset (line 92)
 
 ## SIM_Frame.h
 
@@ -20,13 +20,15 @@ Found in ``` ardupilot\libraries\SITL ```
 
 Inform using SIM_Frame_vals.csv
 
-* refVoltage (line XX)
-* maxVoltage (line width)
-* battCapacityAh (line XX)
-* hoverThrOut (line X)
-* disc_area (line XX)
-* mass (line X)
-* propExpo (line XX)
+* mass (line 84)
+* diagonal_size (line 87)
+* refVoltage (line 94)
+* refCurrent (line 95)
+* maxVoltage (line 101)
+* battCapacityAh (line 104)
+* hoverThrOut (line 107)
+* propExpo (line 110)
+* disc_area (line 130)
 
 ## SIM_Plane.cpp
 
@@ -34,7 +36,7 @@ Found in ``` ardupilot\libraries\SITL ```
 
 Inform using SIM_Plane_cpp_vals.csv
 
-* mass (line XX)
+* mass (line 31)
 
 ## Group2.parm
 

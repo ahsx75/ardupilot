@@ -101,7 +101,7 @@ private:
         float maxVoltage = 4*12;
 
         // battery capacity in Ah. Use zero for unlimited
-        float battCapacityAh = 16;
+        float battCapacityAh = 32;
 
         // CTUN.ThO at hover at refAlt
         float hoverThrOut = 0.5;
