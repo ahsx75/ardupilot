@@ -1,6 +1,6 @@
 ## Austins Modified Ardupilot
 
-Welcome to my modified ArduPilot repository for improving the flight capabilities of larger Group 2 UAS.
+This repository is modified for enabling the SITL flight and simulation of Group 2 UAS.
 
 All of the following file changes are made to those in the ArduPlane folder as this work focuses on fixed-wing vehicles.
 
