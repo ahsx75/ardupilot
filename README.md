@@ -16,7 +16,7 @@ Inform using SIM_Plane_h_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
 
 Found in ``` ardupilot\libraries\SITL ```
 
-Inform using SIM_Frame_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
+Inform using SIM_Frame_h_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
 
 * mass (line 84)
 * diagonal_size (line 87)
