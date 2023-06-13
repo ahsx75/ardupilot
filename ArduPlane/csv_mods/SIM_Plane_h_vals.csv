@@ -1,0 +1,41 @@
+var_description,var_name,var_val,var_type,var_linenum
+throttle percentage required to hover,hover_throttle,0.5,float,43
+"Wing area, square meters",s,0.978,float,52
+"Wing span, meters",b,3.5,float,53
+"Wing avg chord, meters",c,0.28,float,54
+"Lift coeff at zero alpha, dimless",c_lift_0,0.35,float,55
+"Lift from elevator deflection, or Czde, dimless",c_lift_deltae,0.011,float,56
+"Lift curve slope in on pre-stall regime, CL/rad",c_lift_a,5.82,float,57
+"Lift from pitch rate, tail effect, or Czq, dimless",c_lift_q,11.9,float,58
+"Read ardu docs for this, in original .h file",mcoeff,50,float,59
+Efficiency factor,oswald,0.7,float,60
+"Stall angle, rad",alpha_stall,0.3,float,61
+"Drag from pitch rate, or Czq, dimless",c_drag_q,0,float,62
+"Drag from elevator deflection, or Czde, dimless",c_drag_deltae,0,float,63
+Parasitic drag coeff,c_drag_p,0.16,float,64
+"Lateral force bias coeff, dimless",c_y_0,0,float,65
+"Lateral force from sideslip, tail effect, dimless",c_y_b,-0.856,float,66
+"Lateral force from roll rate, tail effect, dimless",c_y_p,0.013,float,67
+"Lateral force from yaw rate, tail effect, dimless",c_y_r,0.372,float,68
+"Lateral force from aileron deflection, more lift more drag, dimless",c_y_deltaa,0,float,69
+"Lateral force from rudder deflection, rigid body asymmetric lift, dimless",c_y_deltar,-0.004,float,70
+"Roll moment bias coeff, dimless",c_l_0,0,float,71
+"Roll moment from roll rate, wing damping, dimless",c_l_p,-0.616,float,72
+"Roll moment from side slip, asymmetric lift, dimless",c_l_b,-0.027,float,73
+"Roll moment from yaw rate, asymmetric airspeed and lift, dimless",c_l_r,0.132,float,74
+"Roll moment from aileron deflection, asymmetric camber and lift distribution across chord, dimless",c_l_deltaa,0.439,float,75
+"Roll moment from rudder deflection, tail lift distributed above CG causes moment, dimless",c_l_deltar,0,float,76
+"Pitch moment bias coefficient, dimless",c_m_0,0,float,77
+"Pitch moment from alpha, tail effect, dimless",c_m_a,-2.169,float,78
+"Pitch moment from pitch rate, tail damping, dimless",c_m_q,-16.26,float,79
+"Pitch moment from elevator deflection, driving, dimless",c_m_deltae,1.598,float,80
+"Yaw moment bias coeff, dimless",c_n_0,0,float,81
+"Yaw moment from sideslip, tail effect, dimless",c_n_b,0.163,float,82
+"Yaw moment from roll rate, tail effect on rigid body, dimless",c_n_p,0.038,float,83
+"Yaw moment from yaw rate, tail damping, dimless",c_n_r,-0.09,float,84
+"Yaw moment from aileron deflection, asymmetric drag, dimless",c_n_deltaa,-0.021,float,85
+"Yaw moment from rudder deflection, driving, dimless",c_n_deltar,0.061,float,86
+"Maximum aileron deflection, radians",deltaa_max,0.3491,float,87
+"Maximum elevator deflection, radians",deltae_max,0.3491,float,88
+"Maximum rudder deflection, radians",deltar_max,0.3491,float,89
+"CG offset from neutral point in meters (X,Y,Z)",CGOffset,"{-0.1, 0, -0.05}",Vector3f,92

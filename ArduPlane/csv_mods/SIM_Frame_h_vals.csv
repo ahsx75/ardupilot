@@ -1,0 +1,10 @@
+var_description,var_name,var_val,var_type,var_linenum
+"Mass of system, kg",mass,22,float,84
+"Distance between corner to corner VTOL motors, meters",diagonal_size,0.35,float,87
+"Voltage used for drag estimate, V",refVoltage,50,float,94
+"Current used for drag estimate, A",refCurrent,35,float,95
+"Maximum voltage of system, V",maxVoltage,48,float,101
+"Total battery capacity of system, Ah",battCapacityAh,32,float,104
+"Hover throttle for defined platform, %",hoverThrOut,0.5,float,107
+"Propeller exponential used in thrust modeling, 0.75 for 20 inch props",propExpo,0.75,float,110
+"Area of VTOL propellers, m2",disc_area,0.8,float,130
