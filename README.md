@@ -6,7 +6,7 @@ This repository is a modified versino of ArduPilot for enabling the SITL flight 
 
 Found in ``` ardupilot\libraries\SITL ```
 
-Inform using SIM_Plane_h_vals.csv
+Inform using SIM_Plane_h_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
 
 * hover_throttle (line 43)
 * Aircraft parameters (lines 52 - 89)
@@ -16,7 +16,7 @@ Inform using SIM_Plane_h_vals.csv
 
 Found in ``` ardupilot\libraries\SITL ```
 
-Inform using SIM_Frame_vals.csv
+Inform using SIM_Frame_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
 
 * mass (line 84)
 * diagonal_size (line 87)
@@ -32,7 +32,7 @@ Inform using SIM_Frame_vals.csv
 
 Found in ``` ardupilot\libraries\SITL ```
 
-Inform using SIM_Plane_cpp_vals.csv
+Inform using SIM_Plane_cpp_vals.csv from ``` ardupilot\ArduPlane\csv_mods ```
 
 * mass (line 31)
 
