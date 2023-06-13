@@ -1,6 +1,6 @@
 ## Austins Modified Ardupilot
 
-This repository is a modified versino of ArduPilot for enabling the SITL flight and simulation of Group 2 UAS.
+This repository is a modified version of ArduPilot for enabling the SITL flight and simulation of Group 2 UAS.
 
 ## SIM_Plane.h
 
